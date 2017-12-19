@@ -69,15 +69,7 @@ public class HW2_YardenShai {
 			checkIterator(iterator);
 			iterator.add(new Worker<Department>("Shalom", new Department("Science", "Boss2"), 6000));
 			iterator.previous();
-			checkIterator(iterator);
-			while (iterator.hasNext()) {
-				iterator.next();
-			}
 
-			iterator.add(new Worker<Department>("Amir", new Department("Science2", "Boss3"), 5000));
-			while (iterator.hasPrevious()) {
-				iterator.previous();
-			}
 			checkIterator(iterator);
 
 		} catch (IOException e) {
