@@ -70,7 +70,7 @@ public class HW2_YardenShai {
 			iterator.add(new Worker<Department>("Shalom", new Department("Science", "Boss2"), 6000));
 			iterator.previous();
 
-			checkIterator(iterator);
+			
 
 		} catch (IOException e) {
 			e.printStackTrace();
