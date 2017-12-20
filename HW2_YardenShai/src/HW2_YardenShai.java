@@ -49,7 +49,7 @@ public class HW2_YardenShai {
 		printArrList(arrList);
 		Map<Integer, Worker<?>> map = createMap(arrList);
 		System.out.println("\nMap content backward, order by worker's name: ");
-		printMapBackWard(map);
+		//printMapBackWard(map);
 
 		try {
 			saveMapToFile(map, WORKERS_FNAME, answer);
